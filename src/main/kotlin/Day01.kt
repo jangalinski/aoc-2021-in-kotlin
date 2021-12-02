@@ -3,8 +3,11 @@ package io.github.jangalinski.kata
 fun main() {
 
   // fold on pair of last value and increaseCount, then take just the count
-  fun part1(input: List<Int>): Int = input.fold(Int.MAX_VALUE to 0) { p, c ->
-    c to if (c > p.first) p.second + 1 else p.second
+  fun part1(input: List<Int>): Int = input.fold(Int.MAX_VALUE to 0) { (last, count), next ->
+    if (next > last)
+      next to count + 1
+    else
+      next to count
   }.second
 
   fun part2(input: List<Int>): Int {
