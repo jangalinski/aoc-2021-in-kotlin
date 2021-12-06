@@ -1,4 +1,4 @@
-package io.github.jangalinski.kata
+package io.github.jangalinski.kata.aoc2021
 
 import io.toolisticon.lib.krid.model.Cell
 import java.io.File

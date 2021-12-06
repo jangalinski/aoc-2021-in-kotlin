@@ -1,4 +1,4 @@
-package io.github.jangalinski.kata
+package io.github.jangalinski.kata.aoc2021
 
 import io.toolisticon.lib.krid.Krids.ORIGIN
 import io.toolisticon.lib.krid.model.step.CompositeStep
